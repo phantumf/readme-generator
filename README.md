@@ -7,7 +7,7 @@ Simple readme generator
 ## Installation
 
 ```
-npm i phantumf/readme-generator
+npm i phantumf/readme-generator -g
 ```
 
 ## Usage
