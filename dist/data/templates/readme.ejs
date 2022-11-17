@@ -1,0 +1,32 @@
+# <%= title %> <%- license ? `![License](https://img.shields.io/badge/license-${license}-brightgreen)` : '' %>
+
+<% if (description) { %>
+## Description
+
+<%= description %>
+<% } %>
+<% if (installation) { %>
+## Installation
+
+<%= installation %>
+<% } %>
+
+<% if (usage) { %>
+## Usage
+
+<%= usage %>
+<% } %>
+<% if (contributing) { %>
+## Contributing
+
+<%= contributing %>
+<% } %>
+<% if (tests) { %>
+## Tests
+
+<%= tests %>
+<% } %>
+
+## License
+
+<%- include(`licenses/${license}`, { name })  %>
